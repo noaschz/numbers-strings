@@ -2,7 +2,6 @@ package natural
 
 // NumberStringBelow20 erwartet eine Zahl >= 20 und liefert den zugehörigen String.
 func NumberStringBelow20(n int) string {
-	// SOLUTION
 	switch n {
 	case 0:
 		return "null"
@@ -46,7 +45,6 @@ func NumberStringBelow20(n int) string {
 		return "neunzehn"
 	}
 	return ""
-	// SOLUTION_END
 }
 
 // HINT

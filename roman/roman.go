@@ -4,9 +4,7 @@ import "strings"
 
 // NToI erwartet eine Zahl und liefert die entsprechende Anzahl an I als String.
 func NToI(n int) string {
-	// SOLUTION
 	return strings.Repeat("I", n)
-	// SOLUTION_END
 }
 
 // HINT
@@ -14,9 +12,7 @@ func NToI(n int) string {
 
 // NToX erwartet eine Zahl und liefert die entsprechende Anzahl an X als String.
 func NToX(n int) string {
-	// SOLUTION
 	return strings.Repeat("X", n)
-	// SOLUTION_END
 	// iftask: return ""
 }
 
@@ -25,7 +21,6 @@ func NToX(n int) string {
 
 // RomanBelow10 erwartet eine Zahl 1 <= n <= 10 und liefert die römische Schreibweise für n als String.
 func RomanBelow10(n int) string {
-	// SOLUTION
 	if n == 0 {
 		return ""
 	}
@@ -41,7 +36,6 @@ func RomanBelow10(n int) string {
 	if n <= 10 {
 		return NToI(10-n) + "X"
 	}
-	// SOLUTION_END
 	return ""
 }
 
@@ -51,7 +45,6 @@ func RomanBelow10(n int) string {
 
 // RomanBelow100 erwartet eine Zahl 1 <= n <= 100 und liefert die römische Schreibweise für n als String.
 func RomanBelow100(n int) string {
-	// SOLUTION
 	if n <= 39 {
 		return NToX(n/10) + RomanBelow10(n%10)
 	}
@@ -64,7 +57,6 @@ func RomanBelow100(n int) string {
 	if n <= 109 {
 		return NToX((109-n)/10) + "C" + RomanBelow10(n%10)
 	}
-	// SOLUTION_END
 	return ""
 }
 

@@ -10,9 +10,7 @@ package natural
 // Dies ist eine Hilfsfunktion, die genutzt werden soll,
 // um den Gesamt-String einer Zahl zusammenzusetzen.
 func DigitString10(digit int) string {
-	// SOLUTION
 	return []string{"", "", "zwanzig", "dreißig", "vierzig", "fünfzig", "sechzig", "siebzig", "achtzig", "neunzig"}[digit]
-	// SOLUTION_END
 
 }
 

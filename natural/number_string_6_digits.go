@@ -3,7 +3,6 @@ package natural
 // NumberString6Digits erwartet eine Zahl 0 <= n <= 999999 und liefert den zugehörigen String.
 func NumberString6Digits(n int) string {
 
-	// SOLUTION
 	result := ""
 	if n == 0 {
 		return "null"
@@ -17,7 +16,6 @@ func NumberString6Digits(n int) string {
 		result += NumberString3Digits(low)
 	}
 	return result
-	// SOLUTION_END
 }
 
 // HINT
