@@ -5,6 +5,3 @@ func NumberString3Digits(n int) string {
 	// TODO
 	return ""
 }
-
-// HINT
-// Verwenden Sie die Funktionen NumberStringBelow20 und NumberStringGreater20.

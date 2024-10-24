@@ -15,7 +15,3 @@ func DigitString1(digit int) string {
 	// TODO
 	return ""
 }
-
-// HINT
-// Sie können eine Reihe von If-Anweisungen, eine Switch-Anweisung oder
-// auch eine Liste mit den Strings für die Ziffern verwenden.

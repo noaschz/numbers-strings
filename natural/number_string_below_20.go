@@ -5,6 +5,3 @@ func NumberStringBelow20(n int) string {
 	// TODO
 	return ""
 }
-
-// HINT
-// Verwenden Sie eine Switch-Anweisung oder eine Liste.

@@ -6,6 +6,3 @@ func ParseStringDecimal(s string) int {
 	// TODO
 	return 0
 }
-
-// HINT
-// Verwenden Sie die Funktion ParseDigit, um die Ziffern des Strings zu bestimmen.

@@ -7,7 +7,3 @@ func ParseDigit(digit string) int {
 	// TODO
 	return 0
 }
-
-// HINT
-// Verwenden Sie eine Liste, um die Ziffern vorab zu definieren.
-// Durchsuchen Sie die Liste, um die Ziffer zu finden.
