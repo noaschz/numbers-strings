@@ -13,5 +13,35 @@ package natural
 // Diese Funktion muss nur für den Normalfall (Zahlen >= 21) funktionieren.
 func DigitString1(digit int) string {
 	// TODO
-	return ""
+	var result string
+	var ifnull string
+
+	switch digit {
+	case 0:
+		result = ""
+	case 1:
+		result = "ein"
+	case 2:
+		result = "zwei"
+	case 3:
+		result = "drei"
+	case 4:
+		result = "vier"
+	case 5:
+		result = "fünf"
+	case 6:
+		result = "sechs"
+	case 7:
+		result = "sieben"
+	case 8:
+		result = "acht"
+	case 9:
+		result = "neun"
+	}
+
+	if digit != 0 {
+		ifnull = "und"
+	}
+
+	return result + ifnull
 }
