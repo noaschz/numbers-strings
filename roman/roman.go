@@ -1,14 +1,21 @@
 package roman
 
+import "strings"
+
 // NToI erwartet eine Zahl und liefert die entsprechende Anzahl an I als String.
 func NToI(n int) string {
-	// TODO
-	return ""
+	// TODO+
+	return strings.Repeat("I", n)
 }
 
 // NToX erwartet eine Zahl und liefert die entsprechende Anzahl an X als String.
 func NToX(n int) string {
 	// TODO
+	zehner := n / 10 % 10
+
+	if zehner > 0 {
+		return strings.Repeat("X", zehner)
+	}
 	return ""
 }
 
